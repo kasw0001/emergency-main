@@ -40,7 +40,7 @@ footer {
 }
 main section {
   padding: 20px;
-  /* margin: 10px; */
+  margin: 100px;
   /* border: 1px solid var(--border-color); */
   border-radius: var(--border-radius);
 }
@@ -137,4 +137,14 @@ footer a {
 }
 .green {
   background-color: var(--info-bg-color-green);
+}
+
+/* register */
+.form-group {
+  margin-bottom: 2rem;
+}
+
+#webform1 {
+  display: block;
+  gap: 3rem;
 }

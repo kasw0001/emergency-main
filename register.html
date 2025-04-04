@@ -29,10 +29,64 @@
       <h1>INDBERET</h1>
       <section id="form-section">
         <article id="form-info">
-          <h2>Overskrift</h2>
-          <p>Tekst</p>
+          <h2>Høretelefon-nødformular</h2>
+          <p>
+            Åh nej! Din lyd er væk! Udfyld denne formular, så vi kan hjælpe dig
+            gennem krisen.
+          </p>
         </article>
-        <form id="webform"></form>
+        <form id="webform1">
+          <div class="form-group">
+            <label for="situation"> Beskriv din nuværende situation:</label>
+            <textarea id="situation" name="situation" type="text"></textarea>
+          </div>
+        </form>
+        <form id="webform2">
+          <div class="form-group">
+            <label for="plan"> Hvor skete katastrofen?</label>
+            <select id="plan" name="plan" required>
+              <option value="" disabled selected>Vælg</option>
+              <option value="bus">I bussen/toget</option>
+              <option value="butik">I en butik</option>
+              <option value="udenfor">På gaden</option>
+              <option value="fitness">I Fitness</option>
+              <option value="cafe">På en cafe</option>
+            </select>
+          </div>
+        </form>
+        <form id="webform3">
+          <div class="form-group">
+            <label for="stresslevel">Hvor stresset er du lige nu? (0 = chill, 100 = panik)</label>
+            <input type="range" id="stresslevel" name="stresslevel" min="0" max="100" value="50" />
+          </div>
+        </form>
+        <form id="webform4">
+          <div class="form-group">
+            <label>Hvilken løsning vælger du?</label>
+            <div>
+              <input type="radio" id="solution1" name="solution" value="stikkontakt" required>
+              <label for="solution1">Leder efter en stikkontakt</label>
+            </div>
+            <div>
+              <input type="radio" id="solution2" name="solution" value="snakke">
+              <label for="solution2">Prøver at smalltalke med en fremmed</label>
+            </div>
+            <div>
+              <input type="radio" id="solution3" name="solution" value="omgivelser">
+              <label for="solution3">Observerer folk og lytter til deres samtaler</label>
+            </div>
+            <div>
+              <input type="radio" id="solution4" name="solution" value="nynne">
+              <label for="solution4">Begynder at nynne musikken for mig selv</label>
+            </div>
+            <div>
+              <input type="radio" id="solution5" name="solution" value="stilhed">
+              <label for="solution5">Accepterer stilheden og prøver at nyde nuet</label>
+            </div>
+          </div>
+        </form>
+          <button type="submit"> Send hjælp!</button>
+        </form>
       </section>
       <section id="form-summary">
         <h2>Summary</h2>
