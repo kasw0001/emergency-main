@@ -85,13 +85,32 @@
             </div>
           </div>
         </form>
-          <button type="submit"> Send hjælp!</button>
+          <button id="submitbtn" type="submit"> Send hjælp!</button>
         </form>
       </section>
       <section id="form-summary">
         <h2>Summary</h2>
-        <article>
-          <p class="placeholder">Opsummering</p>
+        <article id="sum">
+          <div>
+            <h3>Nuværende situation:</h3>
+            <p id="sumSituation"></p>
+          </div>
+          <div>
+            <h3>Sted:</h3>
+            <p id="sumSted"></p>
+          </div>
+          <div>
+            <h3>Stress niveau:</h3>
+            <p id="sumStress"></p>
+          </div>
+          <div>
+            <h3>Løsning:</h3>
+            <p id="sumSlut"></p>
+          </div>
+          <form>
+            <button id="resetbtn" type="reset">Godkend og luk</button>
+          </form>
+          <!-- <p class="placeholder">Opsummering</p> -->
         </article>
       </section>
     </main>

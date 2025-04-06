@@ -30,3 +30,9 @@
   margin: 0 0 1.2rem 0;
   padding: 0;
 }
+
+#sum div {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  gap: 0.5rem;
+}
