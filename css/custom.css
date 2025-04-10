@@ -1,9 +1,9 @@
 :root {
   /* Colours */
-  --primary-bg-color: #fceb94; /* used */
+  --primary-bg-color: #ffdadd; /* used */
   --primary-font-color: #000000; /* used */
 
-  --secondary-bg-color: #ff4b00; /* used */
+  --secondary-bg-color: #ff9e74; /* used */
   --secondary-font-color: #fffae2; /* used */
 
   /* CAN BE DELETED WHEN THE PLACEHOLDER CLASS IS DELETED */
@@ -59,19 +59,19 @@
 
   /* Background colors */
   --logotype-background-color: #000000;
-  --header-background-color: #6F90EB;
+  --header-background-color: #75c1ff;
   --article-background-color: #fffae2;
   --news-background-color: #dbdde3;
   --news-background-color-inverted: #eeebe9;
   --info-background-color: #ffffff;
   --headline-bg-color: #ff4b00;
-  --headline-bg-color-alert: #dbdde3;
+  --headline-bg-color-alert: #ff4b00;
   --headline-bg-color-inverted: #000000;
   --bodytext-bg-color: #dbdde3;
   --bodytext-bg-color-inverted: #dbdde3;
   --cta-text-bg-color: #ff4b00;
   --cta-text-bg-color-inverted: #dbdde3;
-  --followup-text-bg-color: #FF0000;
+  --followup-text-bg-color: #ffa7ca;
   --followup-text-bg-color-inverted: #dbdde3;
   --form-background-color: #c5c7ce;
   --form-text-color: #ffffff;

@@ -16,6 +16,28 @@ main > *:not(:first-child) {
 main {
   grid-template-rows: min-content min-content 1fr min-content;
 }
+img, svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Dialog */
+dialog {
+  max-width: 600px; /* eller hvad der passer dig */
+  width: 90%;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+dialog img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
 
 /* LAYOUT FOR HEADER AND FOOTER */
 footer {

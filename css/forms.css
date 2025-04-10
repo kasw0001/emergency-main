@@ -5,7 +5,7 @@
 #form-section,
 #form-summary {
   background-color: var(--info-background-color);
-  padding: 0;
+  padding: 1.5rem;
 }
 #form-summary h2 {
   line-height: 3rem;

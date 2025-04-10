@@ -40,8 +40,6 @@
             <label for="situation"> Beskriv din nuværende situation:</label>
             <textarea id="situation" name="situation" type="text"></textarea>
           </div>
-        </form>
-        <form id="webform2">
           <div class="form-group">
             <label for="plan"> Hvor skete katastrofen?</label>
             <select id="plan" name="plan" required>
@@ -53,14 +51,11 @@
               <option value="cafe">På en cafe</option>
             </select>
           </div>
-        </form>
-        <form id="webform3">
           <div class="form-group">
-            <label for="stresslevel">Hvor stresset er du lige nu? (0 = chill, 100 = panik)</label>
-            <input type="range" id="stresslevel" name="stresslevel" min="0" max="100" value="50" />
+            <label for="stresslevel">Hvor stresset er du lige nu? (0 = chill, 10 = panik)</label>
+            <input type="range" id="stresslevel" name="stresslevel" min="0" max="10" value="5" />
           </div>
-        </form>
-        <form id="webform4">
+
           <div class="form-group">
             <label>Hvilken løsning vælger du?</label>
             <div>
@@ -84,8 +79,7 @@
               <label for="solution5">Accepterer stilheden og prøver at nyde nuet</label>
             </div>
           </div>
-        </form>
-          <button id="submitbtn" type="submit"> Send hjælp!</button>
+          <button id="submitbtn" type="button"> Send hjælp!</button>
         </form>
       </section>
       <section id="form-summary">
@@ -97,7 +91,7 @@
           </div>
           <div>
             <h3>Sted:</h3>
-            <p id="sumSted"></p>
+            <p id="sumPlan"></p>
           </div>
           <div>
             <h3>Stress niveau:</h3>
@@ -140,5 +134,6 @@
         </ul>
       </nav>
     </footer>
+    <script src="js/form.js"></script>
   </body>
 </html>
