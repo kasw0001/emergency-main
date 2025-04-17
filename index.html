@@ -16,8 +16,7 @@
     <header>
       <nav>
         <div id="logotype-wrapper">
-          <a href="index.html"></a>
-          <img src="/img/logo.png" alt="logo">
+          <a href="index.html"> <img src="/img/logo.png" alt="logo"> </a>
         </div>
         <ul class="menu">
           <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
@@ -25,19 +24,21 @@
         </ul>
       </nav>
     </header>
+
     <section id="main-disclamer">
       <div id="main-disclamer-content">
         <img src="warning" alt="ICON" />
         <div>
-          <h1>Overskrift</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          <h1>Tragic Tunesday</h1>
+          <p>Overlevelsesguide til den lydløse katastrofe</p>
         </div>
       </div>
     </section>
     <main>
       <section id="daily">
         <article class="daily_card">
-          <?xml version="1.0" encoding="UTF-8"?>
+          <div id="pan"></div>
+          <!-- <?xml version="1.0" encoding="UTF-8"?>
 <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 641.77 508.67">
   <g id="Lag_1" data-name="Lag 1">
     <g>
@@ -64,10 +65,10 @@
       </g>
     </g>
   </g>
-</svg>
+</svg> -->
           <div class="daily_text">
             <h2>Høretelefon-nødformular</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat magnam ducimus ea, sed minima asperiores.</p>
+            <p>Ingen lyd - intet problem. Udfyld formularen og få hjælp til at overleve stilheden.</p>
             <a href="../register.html" class="cta_btn">Se mere</a>
           </div>
         </article>
@@ -89,13 +90,13 @@
             <p>Af redaktionen - Musiknød.dk</p>
             <p>Vi har alle prøvet det. Du står dér. På gaden. På stationen. I køen. Klar til at koble af med din yndlingsmusik... og så sker det. Høretelefonerne dør. Stilhed. Chok. Angst. Men bare rolig - vi har din ryg. Her er syv lifehacks, der kan redde dig næste gang batteriet svigter.</p>
             <ol>
-              <li>Hav altid et “backup-sæt” i tasken. <p>Et par gamle kablede høretelefoner vejer intet og kan være din livline. Opbevar dem i en lynlås-lomme, du glemmer eksisterer - så bliver du glad, når du finder dem.</p></li>
-              <li>Powerbank = din bedste ven. <p>Der findes små powerbanks, der er formet som læbepomader - de kan lige give dine høretelefoner et ekstra boost på farten. Plug in og gå videre med din dag.</p></li>
-              <li>Lær at tale med fremmede. <p>Vi ved det: det er scary. Men hvis du alligevel er tvunget til stilhed, hvorfor ikke snakke med nogen? Sig “hej” til personen ved siden af dig. Det kunne ende som en god historie (eller en akavet TikTok).</p></li>
-              <li>Brug dine omgivelser som lydspor. <p>Lyt til verden. Lydene fra byen, samtaler, trafik, fugle. Det er ikke Spotify, men det er alligevel ret smukt, når man først tuner ind.</p></li>
-              <li>Lav en mental musikquiz. <p>Start en sang i dit hoved. Kan du huske teksten? Hvem var kunstneren? Hvilket år? Hvad kom før og efter på albummet? Tiden flyver, når du battler dig selv.</p></li>
-              <li>Gør stilheden til en dans. <p>Nyn for dig selv. Gå i beat med dine skridt. Lav dit eget silent disco. Folk vil måske kigge - men hey, de aner ikke hvor fedt dit soundtrack er.</p></li>
-              <li>Forbered dig mentalt - nu. <p>Download offline-playlister, lav en “Krise-playliste” og beslut dig for, hvordan du vil reagere næste gang. Jo mere forberedt, jo mindre panik.</p></li>
+              <li>Hav altid et “backup-sæt” i tasken.</li> <p>Et par gamle kablede høretelefoner vejer intet og kan være din livline. Opbevar dem i en lynlås-lomme, du glemmer eksisterer - så bliver du glad, når du finder dem.</p>
+              <li>Powerbank = din bedste ven.</li><p>Der findes små powerbanks, der er formet som læbepomader - de kan lige give dine høretelefoner et ekstra boost på farten. Plug in og gå videre med din dag.</p>
+              <li>Lær at tale med fremmede.</li> <p>Vi ved det: det er scary. Men hvis du alligevel er tvunget til stilhed, hvorfor ikke snakke med nogen? Sig “hej” til personen ved siden af dig. Det kunne ende som en god historie (eller en akavet TikTok).</p>
+              <li>Brug dine omgivelser som lydspor. </li><p>Lyt til verden. Lydene fra byen, samtaler, trafik, fugle. Det er ikke Spotify, men det er alligevel ret smukt, når man først tuner ind.</p>
+              <li>Lav en mental musikquiz. </li><p>Start en sang i dit hoved. Kan du huske teksten? Hvem var kunstneren? Hvilket år? Hvad kom før og efter på albummet? Tiden flyver, når du battler dig selv.</p>
+              <li>Gør stilheden til en dans.</li> <p>Nyn for dig selv. Gå i beat med dine skridt. Lav dit eget silent disco. Folk vil måske kigge - men hey, de aner ikke hvor fedt dit soundtrack er.</p>
+              <li>Forbered dig mentalt - nu. </li><p>Download offline-playlister, lav en “Krise-playliste” og beslut dig for, hvordan du vil reagere næste gang. Jo mere forberedt, jo mindre panik.</p>
             </ol>
             <form method="dialog">
             <button id="close1" class="close-dialog">Luk</button>
@@ -131,14 +132,23 @@
         </article>
         <article class="news_card">
           <dialog id="dialog3">
-            <h3>Teksrt</h3>
-            <p>Du vil ønske, du havde læst det her, før du blev fanget uden lyd i bussen...</p>
+            <h3>TOP 5: Her er de værste steder at løbe tør for strøm på dine høretelefoner</h3>
+            <p>Af redaktionen - Musiknød.dk</p>
+            <p>For mange er høretelefoner mere end bare et tech-accessory - de er en livline til ro, musik og kontrol i en kaotisk offentlig verden. Men hvad sker der, når batteriet slipper op midt i det hele? Her er vores bud på de fem værste steder, hvor stilheden rammer allerhårdest.</p>
+            <ol>
+              <li>Offentlig transport i myldretiden</li> <p>Forestil dig: du træder ind i en fyldt bus, trykker "play" - og intet sker. Batteriet er dødt. Til gengæld er der fuld volumen på samtalen mellem to teenagere, og højttalerens “Næste stop” lyder som et dommedagsbrøl.</p>
+              <li> klokken 17.00 en hverdag</li><p>Du står i kø, der er varmt, nogen skubber til din kurv, og bag dig hoster nogen uden at holde sig for munden. Uden musik er det her ikke en indkøbstur. Det er overlevelse.</p>
+              <li>Fitnesscenteret midt i cardio</li><p>Du har lige fundet rytmen på løbebåndet, da dine høretelefoner dør. Pludselig kan du høre alt: maskiner, vejrtrækning, grynt og den lokale techno-playliste. Dit flow? Ødelagt.</p>
+              <li>Under en kedelig date</li><p>Du havde forudset samtalepausen og downloadet en backup-playliste. Men strømmen forsvinder. Nu skal du høre om vedkommendes fascination af Excel-ark – uden mulighed for at flygte ind i et beat.</p>
+              <li>Togturen uden vinduesplads og uden internet</li><p>Der er to timer til din station, dit abonnement har ikke signal, og du sidder i en samtalezone. Stilheden er ikke meditativ. Den er klaustrofobisk.</p>
+            </ol>
+              <p>Konklusion:Glem strøm til telefonen - det virkelige mareridt er høretelefoner uden batteri. Sørg for backup, og hav altid en plan B klar. Ellers? Velkommen til stilhedens skærsild.</p>
             <form method="dialog">
             <button id="close3" class="close-dialog">Luk</button>
           </form>
           </dialog>
-          <h3>Nyhed</h3>
-          <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
+          <h3>TOP 5: De værste steder at løbe tør for strøm</h3>
+          <p>Stilhed i bussen? Mareridt på motorvejen? Her er de steder, du aldrig vil miste lyden.</p>
           <img src="" alt="news_img" />
           <a id="open3" class="cta_btn" href="">Læs mere</a>
         </article>

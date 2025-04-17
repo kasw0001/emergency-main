@@ -93,3 +93,29 @@
   filter: blur();
 }
 
+/* Panorama effekt */
+#pan {
+  height: 200px;
+  width: 100%;
+  background-image: url(../img/logo.png);
+  background-size: 160%;
+  background-repeat: no-repeat;
+  background-position: 0% 0;
+}
+
+.pan_animation {
+  animation: panorama 5s linear alternate;
+}
+
+@keyframes panorama {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+.stop {
+  animation-play-state: paused;
+}

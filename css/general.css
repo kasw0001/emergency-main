@@ -26,6 +26,10 @@ footer {
   background-color: var(--logotype-background-color);
   color: var(--logotype-color);
 }
+#logotype-wrapper img {
+  height: 50px;
+  display: block;
+}
 #main-disclamer {
   height: 180px;
   background-color: var(--header-background-color);
@@ -147,4 +151,13 @@ footer a {
 #webform1 {
   display: block;
   gap: 3rem;
+}
+
+/* ARTIKLER */
+#dialog1, #dialog2, #dialog3 {
+  padding: 2rem;
+}
+
+#dialog3 li, #dialog1 li {
+  font-weight: bold;
 }

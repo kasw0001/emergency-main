@@ -9,7 +9,7 @@
 .info-text h2 {
   line-height: 3rem;
   text-align: center;
-  background-color: var(--headline-bg-color-inverted);
+  background-color: #75c1ff;
   color: var(--headline-color-inverted);
   padding-top: 5px;
 }

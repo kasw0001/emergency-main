@@ -24,7 +24,7 @@ img, svg {
 
 /* Dialog */
 dialog {
-  max-width: 600px; /* eller hvad der passer dig */
+  max-width: 700px; /* eller hvad der passer dig */
   width: 90%;
   padding: 1rem;
   border: none;
@@ -33,7 +33,7 @@ dialog {
 }
 
 dialog img {
-  width: 100%;
+  width: 400px;
   height: auto;
   border-radius: 6px;
   margin-bottom: 1rem;
