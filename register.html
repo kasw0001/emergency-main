@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/custom.css" id="lightmode" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/infographic.css" />
@@ -16,9 +16,14 @@
     <header>
       <nav>
         <div id="logotype-wrapper">
-          <a href="index.html"> <img src="/img/logo.png" alt="logo">  </a>
+          <a href="index.html"> <img src="/svg/Asset 1-kopi.svg" alt="logo">  </a>
         </div>
         <ul class="menu">
+          <legend id="switchtext3"> Dark mode </legend>
+        <label class="switch">
+            <input id="switchBtn3" type="checkbox" />
+            <span class="slider round"></span>
+        </label>
           <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
           <li><a class="menuItem" href="register.html">Indberet</a></li>
         </ul>
@@ -35,7 +40,7 @@
             gennem krisen.
           </p>
         </article>
-        <form id="webform1">
+        <form id="webform">
           <div class="form-group">
             <label for="situation"> Beskriv din nuværende situation:</label>
             <textarea id="situation" name="situation" type="text"></textarea>
@@ -52,7 +57,7 @@
             </select>
           </div>
           <div class="form-group">
-            <label for="stresslevel">Hvor stresset er du lige nu? (0 = chill, 10 = panik)</label>
+            <label for="stresslevel">Hvor stresset er du lige nu? (0 = chill, 10 = panik)<span id="stressValue">5</span></label>
             <input type="range" id="stresslevel" name="stresslevel" min="0" max="10" value="5" />
           </div>
 
@@ -135,5 +140,6 @@
       </nav>
     </footer>
     <script src="js/form.js"></script>
+    <script src="js/dark.js"></script>
   </body>
 </html>

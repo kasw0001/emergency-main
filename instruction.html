@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/custom.css" id="lightmode" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/infographic.css" />
@@ -15,9 +15,14 @@
     <header>
       <nav>
         <div id="logotype-wrapper">
-          <a href="index.html"> <img src="/img/logo.png" alt="logo">  </a>
+          <a href="index.html"> <img src="/svg/Asset 1-kopi.svg" alt="logo">  </a>
         </div>
         <ul class="menu">
+          <legend id="switchtext3">Dark mode</legend>
+        <label class="switch">
+            <input id="switchBtn3" type="checkbox" />
+            <span class="slider round"></span>
+        </label>
           <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
           <li><a class="menuItem" href="register.html">Indberet</a></li>
         </ul>
@@ -57,12 +62,10 @@
           <circle id="knap3" cx="370" cy="370" r="30" style="fill:#ff0000" ></circle>
         </svg></section>
       <section class="info-text">
-        <h2>Overskrift</h2>
+        <h2>Hvad gør du uden dine høretelefoner?</h2>
         <article>
-          <p class="placeholder">INFO-TEKST</p>
+          <p class="placeholder">Ingen musik i ørerne? Klik dig rundt</p>
         </article>
-        <aside id="efficiency" class="info-box yellow">INFO-BOX</aside>
-        <aside id="requirement" class="info-box green">INFO-BOX</aside>
       </section>
     </main>
 
@@ -93,5 +96,6 @@
       </nav>
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/dark.js"></script>
   </body>
 </html>

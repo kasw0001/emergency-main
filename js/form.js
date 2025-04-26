@@ -31,6 +31,17 @@ function submitForm() {
 document.querySelector("#resetbtn").addEventListener("click", reset);
 
 function reset() {
-    document.querySelector("#webform1").reset();
+    document.querySelector("#webform").reset();
     document.querySelector("#sum").style.display = "none";
 }
+
+
+// STRESS LEVEL
+const slider = document.getElementById("stresslevel");
+const output = document.getElementById("stressValue");
+
+output.textContent = slider.value;
+
+slider.addEventListener("input", () => {
+  output.textContent = slider.value;
+});

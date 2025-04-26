@@ -8,6 +8,9 @@
   border-radius: var(--border-radius);
   height: minmax(200px, min-content);
 }
+#daily {
+  gap: 1cm;
+}
 .daily_text {
   display: grid;
   grid-template-rows: repeat(3, min-content);
@@ -29,6 +32,9 @@
 #daily svg, img {
   border-radius: 2rem;
 }
+p {
+  font-family: var(--body-font);
+}
 
 .news_card {
   background-color: var(--article-background-color);
@@ -36,6 +42,7 @@
   grid-template-rows: repeat(min-content);
   gap: 0.4rem;
   padding: 1rem 0;
+  padding-right: 2rem;
   /* border: 1px solid var(--border-color); */
   height: minmax(300px, min-content);
 }
@@ -104,7 +111,7 @@
 }
 
 .pan_animation {
-  animation: panorama 5s linear alternate;
+  animation: panorama 5s linear infinite alternate;
 }
 
 @keyframes panorama {

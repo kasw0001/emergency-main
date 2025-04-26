@@ -1,0 +1,87 @@
+:root {
+    /* Colours */
+    --primary-bg-color: #585455; /* used */
+    --primary-font-color: #ffffff; /* used */
+  
+    --secondary-bg-color: #5f4337; /* used */
+    --secondary-font-color: #fffae2; /* used */
+  
+    /* CAN BE DELETED WHEN THE PLACEHOLDER CLASS IS DELETED */
+    --placeholder-bg-color: #eb9e1a; /* used */
+    --placeholder-font-color: #575c61; /* used */
+  
+    /* NOT USED AT THE MOMENT */
+    --info-color: #17a2b8;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+  
+    /* Borders */
+    --border-color: #000000; /* used */
+    --border-color-light: #f7f5c2; /* used */
+    --border-radius: 37px;
+  
+    /* Links */
+    --link-color: #84888e; /* used */
+    --hover-color: #f9fcfe; /* used */
+    --active-color: #f52727; /* used */
+  
+    /* From styletile */
+  
+    /* Fonts */
+    --logotype-font: "Roboto", sans-serif;
+    --headline-font: "Roboto", sans-serif;
+    --body-font: "Roboto", sans-serif;
+    --link-font: "Calibri", sans-serif;
+  
+    /* Text sizes */
+    --logotype-size: 1.5rem;
+    --headline1-size: 48px;
+    --headline2-size: 36px;
+    --headline3-size: 32px;
+    --bodytext-size: 20px;
+    --cta-text-size: 20px;
+    --followup-text-size: 16px;
+    --form-submit-size: 14px;
+  
+    /* Text colors */
+    --logotype-color: #fffae2;
+    --headline-color: #000000;
+    --headline-color-inverted: #f9fcfe;
+    --bodytext-color: #000000;
+    --bodytext-color-inverted: #f9fcfe;
+    --cta-text-color: #ffffff;
+    --cta-text-color-inverted: #bbc3ca;
+    --followup-text-color: #575c61;
+    --followup-text-color-inverted: #bbc3ca;
+    --formfield-text-color: #575c61;
+    --form-submit-color: #000000;
+    --form-submit-color-inverted: #bbc3ca;
+  
+    /* Background colors */
+    --logotype-background-color: #ffffff;
+    --header-background-color: #285c87;
+    --article-background-color: #41333e;
+    --news-background-color: #405287;
+    --news-background-color-inverted: #000000;
+    --info-background-color: #41333e;
+    --headline-bg-color: #ff4b00;
+    --headline-bg-color-alert: #ff4b00;
+    --headline-bg-color-inverted: #000000;
+    --bodytext-bg-color: #dbdde3;
+    --bodytext-bg-color-inverted: #dbdde3;
+    --cta-text-bg-color: #ff4b00;
+    --cta-text-bg-color-inverted: #dbdde3;
+    --followup-text-bg-color: #ffa7ca;
+    --followup-text-bg-color-inverted: #dbdde3;
+    --form-background-color: #c5c7ce;
+    --form-text-color: #ffffff;
+    --formfield-background-color: #dbdde3;
+    --formfield-background-color-active: #dbdde3;
+    --form-submit-bg-color: #dbdde3;
+    --form-submit-bg-color-inverted: #dbdde3;
+  
+    /* Info-boxes */
+    --info-bg-color-yellow: #fffae2;
+    --info-bg-color-green: #def5db;
+}
+  
